@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:0d1117&height=200&section=header&text=Adam%20Moujtahid&fontSize=48&fontColor=00d4ff&fontAlignY=38&desc=Computer%20Engineering%20%26%20Networks%20Student%20%7C%20Future%20AI%20%26%20Big%20Data%20Engineer&descAlignY=58&descColor=e6edf3&animation=fadeIn" />
 
-<img src="./assets/profile.jpg" width="140" alt="Adam Moujtahid" />
+<img src="https://raw.githubusercontent.com/admoujta/amoujtah/main/assets/profile.jpg" width="150" alt="Adam Moujtahid" />
 
 <br/><br/>
 
@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-amoujtah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amoujtah)
+[![GitHub](https://img.shields.io/badge/GitHub-admoujta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admoujta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-moujtahid-0416b019a/)
 
 </div>
@@ -151,12 +151,12 @@ This experience gave me the discipline and low-level understanding I now build o
 ## GitHub Statistics
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=amoujtah&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_color=30363d&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amoujtah&layout=compact&theme=tokyonight&border_color=30363d&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=admoujta&show_icons=true&theme=tokyonight&hide_border=true" alt="Adam Moujtahid GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=admoujta&layout=compact&theme=tokyonight&hide_border=true" alt="Adam Moujtahid Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=amoujtah&theme=tokyonight&border=30363d&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&background=0d1117" />
+  <img src="https://streak-stats.demolab.com/?user=admoujta&theme=tokyonight&hide_border=true" alt="Adam Moujtahid GitHub Streak" />
 </div>
 
 <br/>
@@ -175,7 +175,7 @@ Future  →  Machine Learning, Data Engineering and Big Data
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-amoujtah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amoujtah)
+[![GitHub](https://img.shields.io/badge/GitHub-admoujta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admoujta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-moujtahid-0416b019a/)
 
 </div>
