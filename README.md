@@ -17,7 +17,17 @@
 - [Event Management](https://github.com/admoujta/Management-Event) — Web development
 - [E-Commerce](https://github.com/admoujta/E-commerce) — Frontend logic
 
+## Contribution Activity
+
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/admoujta/admoujta/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/admoujta/admoujta/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/admoujta/admoujta/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br/>
 
 **Building strong foundations today. Engineering intelligent systems tomorrow.**
 
