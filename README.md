@@ -124,6 +124,25 @@ Projects · Skills · Academic Journey · Certifications · Contact
 
 <br/>
 
+## GitHub Stats
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=admoujta&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&ring_color=58A6FF&rank_icon=github" alt="Adam Moujtahid GitHub stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=admoujta&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Adam Moujtahid GitHub streak" />
+
+<br/><br/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=admoujta&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Most used languages" />
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=admoujta&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub activity graph" />
+
+</div>
+
+<br/>
+
 ## Contribution Activity
 
 <div align="center">
