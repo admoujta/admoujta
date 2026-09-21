@@ -1,91 +1,137 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="552" viewBox="0 0 1120 552" role="img" aria-label="Adam Moujtahid GitHub profile terminal card">
-  <defs id="animated-profile-style">
-    <linearGradient id="scanFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="45%" stop-color="#0b1730"/>
+      <stop offset="100%" stop-color="#040c18"/>
     </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17335f"/>
+      <stop offset="50%" stop-color="#264f86"/>
+      <stop offset="100%" stop-color="#102948"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78a9ff"/>
+      <stop offset="100%" stop-color="#b9d2ff"/>
+    </linearGradient>
+    <linearGradient id="scanFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fc3ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9fc3ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#9fc3ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0.5" y="0.5" width="1119" height="551" rx="16"/>
+    </clipPath>
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0f203b" stroke-width="1" opacity="0.45"/>
+    </pattern>
     <style><![CDATA[
-      .pulse { animation: pulse 2.4s ease-in-out infinite; }
-      .pulseSlow { animation: pulse 3.2s ease-in-out infinite; }
+      .mono { font-family: Consolas, Menlo, 'DejaVu Sans Mono', monospace; }
+      .titlePulse { animation: titlePulse 3s ease-in-out infinite; }
       .cursor { animation: blink 1s steps(1,end) infinite; }
-      .scanline { animation: scan 7s linear infinite; }
-      .portfolioGlow { animation: glowPulse 2.8s ease-in-out infinite; }
-      .asciiFloat { animation: floaty 4s ease-in-out infinite; transform-origin: center; }
+      .scanline { animation: scan 8s linear infinite; }
+      .glowPulse { animation: glowPulse 2.8s ease-in-out infinite; }
+      .floatSoft { animation: floatSoft 4.5s ease-in-out infinite; }
+      .shineBar { animation: blinkSoft 1.6s ease-in-out infinite; }
       @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
-      @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.72; } }
-      @keyframes glowPulse { 0%,100% { opacity:1; filter:url(#softGlow); } 50% { opacity:.78; filter:url(#softGlow); } }
-      @keyframes scan { 0% { transform:translateY(-90px); } 100% { transform:translateY(650px); } }
-      @keyframes floaty { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
+      @keyframes blinkSoft { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+      @keyframes titlePulse { 0%,100% { opacity:1; } 50% { opacity:.78; } }
+      @keyframes glowPulse { 0%,100% { opacity:1; filter:url(#softGlow); } 50% { opacity:.8; filter:url(#softGlow); } }
+      @keyframes scan { 0% { transform:translateY(-90px); } 100% { transform:translateY(660px); } }
+      @keyframes floatSoft { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
     ]]></style>
   </defs>
-  <rect x="0.5" y="0.5" width="1119" height="551" rx="10" fill="#0d1117" stroke="#30363d"/><g opacity="0.24"><rect class="scanline" x="0" y="-90" width="1120" height="90" fill="url(#scanFade)"/></g><g class="asciiFloat">
-  <text x="28" y="43" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                          _.     _.jjj__</text>
-  <text x="28" y="52.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                      .  ':'-''''    ::!|_.</text>
-  <text x="28" y="62.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                    .                  ::!=_.</text>
-  <text x="28" y="71.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                 .-                      :::!j.</text>
-  <text x="28" y="81.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                .                          :::::</text>
-  <text x="28" y="91" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                               .              : :::::         :j_.</text>
-  <text x="28" y="100.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              .        ::__jjjjjjjjxxxxj;_:    'j|</text>
-  <text x="28" y="110.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                             :      ._jjxxxxxxxxxxxxxxxxxxx;:   |`</text>
-  <text x="28" y="119.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                             :     |jxxxxxxxxxxxxxxoooooxxxx/:  |</text>
-  <text x="28" y="129.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              :   :jxxxooooooooooooooooooooox|: !</text>
-  <text x="28" y="139" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              :  :jxxxooooooooooooooooooooooo|:::</text>
-  <text x="28" y="148.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              :  jjxxxxxxooooooooooxxo1ovnoooo;::</text>
-  <text x="28" y="158.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              ::|jjxv=!!!!|1ooooooxj:: ::::|aoouj</text>
-  <text x="28" y="167.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              ::jjj::::___|jxxooooxxxxxxxjjjjxoxj</text>
-  <text x="28" y="177.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                               jjj;___uujjjjj![}&lt;}|jjj:!!=xxxu1x}`</text>
-  <text x="28" y="187" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                               )|xuxoxx|::;:jj:jx;xxjj:_jcjxoouo;juxc</text>
-  <text x="28" y="196.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                             _.:jjxoxxjj_|jjjjixox;xxxxxxxxxooqooooxx</text>
-  <text x="28" y="206.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                            jxxxxxzxxxxxxxxxx:xxxoxxxxxxxxooosoooxoxr</text>
-  <text x="28" y="215.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                            cxoxxxxjxxxxxvvjjxxoooooujuuuuuggooooxx|</text>
-  <text x="28" y="225.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                            /xxxxxxxxooooooxxx)1xx)1xxooooooooooooo|</text>
-  <text x="28" y="235" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                              /xxxxxooooooooxxjjxxxjxooooooooooooo|</text>
-  <text x="28" y="244.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                               &lt;xjxxxooooooxxj:jjjj:j1xooooooooo&gt;^</text>
-  <text x="28" y="254.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                =jxxxxoooojjjjjxxxxxjjjjxooooooo|</text>
-  <text x="28" y="263.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                 !jxxxxxxjj:!jjjxxxxjjjjjxooooxx|</text>
-  <text x="28" y="273.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                 |jjxxxxjjjjxxxxxxxxxxxjjxxoxxxj|</text>
-  <text x="28" y="283" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                  ::jjxxjjxxxxjj:jjxxoxxjxxxxjjj|</text>
-  <text x="28" y="292.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                  |::jjjj:jxxxjjjjjxxxxjjjjjj::j</text>
-  <text x="28" y="302.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                   ::::::::jjjjjj:jjj:::::::::||</text>
-  <text x="28" y="311.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                    ;  ::::::::::::::::::::::iy</text>
-  <text x="28" y="321.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                   _xc.     :: : : ::::::::_jox_.</text>
-  <text x="28" y="331" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                                 _':jxxj::   : ::: :: ::::|xooxvj/</text>
-  <text x="28" y="340.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                             _\gog:jjxxxxx;.:       ::._jxoooooj|@g/-.</text>
-  <text x="28" y="350.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                         -_gooo@@o/jjxxxxxxxx_______jxxoooooooxi\@@@@@og--.</text>
-  <text x="28" y="359.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">                    _-\o@o@o@@o@o@ogyxxxoooooxxxxxxxoooooooooxg@@@@@@@@@@@@o/--.</text>
-  <text x="28" y="369.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">               --_go@o@o@@o@o@o@o@@@@ggxxooooooooooooooooooog@@@@@@@@@@@@@@@@@@@og-_.</text>
-  <text x="28" y="379" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">           _\g@o@@o@@@@@@@@@@o@o@o@@@@@@goooooooooooooooog@@@@@@@@@@@@@@@@@@@@@@@@@@@gg_.</text>
-  <text x="28" y="388.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">        \\o@@o@@@@@@@@@@@@@o@@@@@@o@@@@@@@@@@oooooooo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@///</text>
-  <text x="28" y="398.2" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">     \\@@@@@@@@@@@@@@@@@@@@@o@o@o@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//</text>
-  <text x="28" y="407.8" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">    \@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//</text>
-  <text x="28" y="417.4" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">  \\@@@@@@@@@@@@@@@@@@@@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/.</text>
-  <text x="28" y="427" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8"> \@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/</text>
-  <text x="28" y="436.6" fill="#c9d1d9" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="8">\@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-  </g><text x="535.2" y="43" class="pulse" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> admoujta@github </tspan><tspan fill="#3d444d">────────────────────────────────────────</tspan></text>
-  <rect x="1038" y="31" width="8" height="17" rx="1" fill="#58a6ff" class="cursor"/><text x="535.2" y="67" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="15"><tspan fill="#ffa657">. Role: </tspan><tspan fill="#484f58">..........................</tspan><tspan fill="#c9d1d9"> Computer Engineering Student</tspan></text>
-  <text x="535.2" y="90" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="15"><tspan fill="#ffa657">. Focus: </tspan><tspan fill="#484f58">....................</tspan><tspan fill="#c9d1d9"> AI · Data Engineering · Big Data</tspan></text>
-  <text x="535.2" y="113" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="15"><tspan fill="#ffa657">. School: </tspan><tspan fill="#484f58">....................................</tspan><tspan fill="#c9d1d9"> EMSI</tspan></text>
-  <text x="535.2" y="136" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="15"><tspan fill="#ffa657">. Environment: </tspan><tspan fill="#484f58">.............................</tspan><tspan fill="#c9d1d9"> Linux / Unix</tspan></text>
 
-  <text x="535.2" y="172" class="pulseSlow" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Tech Stack </tspan><tspan fill="#3d444d">─────────────────────────────────────────────</tspan></text>
-  <text x="535.2" y="196" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Core:       </tspan><tspan fill="#79c0ff"> C · Python · Java · JavaScript · PHP · SQL</tspan></text>
-  <text x="535.2" y="219" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Backend:    </tspan><tspan fill="#c9d1d9"> Django · Symfony · Spring Boot · Node.js</tspan></text>
-  <text x="535.2" y="242" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Frontend:   </tspan><tspan fill="#c9d1d9"> HTML5 · CSS3 · JavaScript · Angular</tspan></text>
-  <text x="535.2" y="265" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Databases:  </tspan><tspan fill="#c9d1d9"> MySQL · MariaDB · PostgreSQL</tspan></text>
-  <text x="535.2" y="288" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Systems:    </tspan><tspan fill="#c9d1d9"> Linux · Unix · Bash · Git · GitHub</tspan></text>
-  <text x="535.2" y="311" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Networking: </tspan><tspan fill="#c9d1d9"> TCP/IP · Subnetting · Network Fundamentals</tspan></text>
-  <text x="535.2" y="334" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Learning:   </tspan><tspan fill="#39d353"> Pandas · NumPy · scikit-learn · Spark · Hadoop</tspan></text>
+  <rect x="0.5" y="0.5" width="1119" height="551" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.5"/>
+  <rect x="12" y="12" width="1096" height="528" rx="12" fill="url(#grid)" opacity="0.35"/>
 
-  <text x="535.2" y="374" class="pulseSlow" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Journey </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
-  <text x="535.2" y="398" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. 1337 / 42: </tspan><tspan fill="#c9d1d9"> C · Unix · Algorithms · Problem Solving</tspan></text>
-  <text x="535.2" y="421" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Direction: </tspan><tspan fill="#c9d1d9"> Data → Big Data → AI Engineering</tspan></text>
+  <g clip-path="url(#cardClip)">
+    <rect class="scanline" x="0" y="-90" width="1120" height="90" fill="url(#scanFade)" opacity="0.38"/>
+  </g>
 
-  <text x="535.2" y="461" class="pulseSlow" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="16"><tspan fill="#3d444d">─</tspan><tspan fill="#58a6ff"> Contact </tspan><tspan fill="#3d444d">────────────────────────────────────────────────</tspan></text>
-  <text x="535.2" y="485" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#c9d1d9"> github.com/admoujta</tspan><tspan fill="#484f58">  ·  </tspan><tspan fill="#ffa657">LinkedIn: </tspan><tspan fill="#c9d1d9">Adam Moujtahid</tspan></text>
-  <text x="535.2" y="508" class="portfolioGlow" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" xml:space="preserve" font-size="14"><tspan fill="#ffa657">. Portfolio: </tspan><tspan fill="#39d353"> portfolio-v2-tau-ochre.vercel.app</tspan></text>
+  <rect x="20" y="18" width="1080" height="44" rx="10" fill="#07111c" stroke="#122743"/>
+  <circle cx="42" cy="40" r="5" fill="#6b7280"/>
+  <circle cx="60" cy="40" r="5" fill="#94a3b8"/>
+  <circle cx="78" cy="40" r="5" fill="#cbd5e1"/>
+  <text x="560" y="45" text-anchor="middle" fill="#6f89ab" class="mono" font-size="12">admoujta@github: ~/profile — production mode</text>
+  <circle cx="1006" cy="40" r="3.8" fill="#a8c7ff" class="glowPulse"/>
+  <text x="1018" y="44" fill="#c6d8ff" class="mono" font-size="11">STATUS: LIVE</text>
+
+  <g class="floatSoft">
+    <rect x="24" y="82" width="470" height="442" rx="14" fill="#08111d" stroke="#173154"/>
+    <text x="40" y="106" fill="#7da8ff" class="mono" font-size="11" letter-spacing="1.5">VISUAL.IDENTITY</text>
+
+    <g opacity="0.13" stroke="#34598d" stroke-width="1">
+      <line x1="48" y1="126" x2="468" y2="126"/>
+      <line x1="48" y1="420" x2="468" y2="420"/>
+      <line x1="90" y1="136" x2="90" y2="470"/>
+      <line x1="438" y1="136" x2="438" y2="470"/>
+    </g>
+
+    <text x="58" y="162" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                          _.     _.jjj__</text>
+    <text x="58" y="171.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                      .  ':'-''''    ::!|_.</text>
+    <text x="58" y="181.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                    .                  ::!=_.</text>
+    <text x="58" y="190.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 .-                      :::!j.</text>
+    <text x="58" y="200.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                .                          :::::</text>
+    <text x="58" y="210" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               .              : :::::         :j_.</text>
+    <text x="58" y="219.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              .        ::__jjjjjjjjxxxxj;_:    'j|</text>
+    <text x="58" y="229.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             :      ._jjxxxxxxxxxxxxxxxxxxx;:   |`</text>
+    <text x="58" y="238.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             :     |jxxxxxxxxxxxxxxoooooxxxx/:  |</text>
+    <text x="58" y="248.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :   :jxxxooooooooooooooooooooox|: !</text>
+    <text x="58" y="258" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :  :jxxxooooooooooooooooooooooo|:::</text>
+    <text x="58" y="267.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :  jjxxxxxxooooooooooxxo1ovnoooo;::</text>
+    <text x="58" y="277.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              ::|jjxv=!!!!|1ooooooxj:: ::::|aoouj</text>
+    <text x="58" y="286.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              ::jjj::::___|jxxooooxxxxxxxjjjjxoxj</text>
+    <text x="58" y="296.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               jjj;___uujjjjj![}&lt;}|jjj:!!=xxxu1x}`</text>
+    <text x="58" y="306" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               )|xuxoxx|::;:jj:jx;xxjj:_jcjxoouo;juxc</text>
+    <text x="58" y="315.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             _.:jjxoxxjj_|jjjjixox;xxxxxxxxxooqooooxx</text>
+    <text x="58" y="325.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            jxxxxxzxxxxxxxxxx:xxxoxxxxxxxxooosoooxoxr</text>
+    <text x="58" y="334.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            cxoxxxxjxxxxxvvjjxxoooooujuuuuuggooooxx|</text>
+    <text x="58" y="344.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            /xxxxxxxxooooooxxx)1xx)1xxooooooooooooo|</text>
+    <text x="58" y="354" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              /xxxxxooooooooxxjjxxxjxooooooooooooo|</text>
+    <text x="58" y="363.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               &lt;xjxxxooooooxxj:jjjj:j1xooooooooo&gt;^</text>
+    <text x="58" y="373.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                =jxxxxoooojjjjjxxxxxjjjjxooooooo|</text>
+    <text x="58" y="382.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 !jxxxxxxjj:!jjjxxxxjjjjjxooooxx|</text>
+    <text x="58" y="392.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 |jjxxxxjjjjxxxxxxxxxxxjjxxoxxxj|</text>
+    <text x="58" y="402" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                  ::jjxxjjxxxxjj:jjxxoxxjxxxxjjj|</text>
+    <text x="58" y="411.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                  |::jjjj:jxxxjjjjjxxxxjjjjjj::j</text>
+    <text x="58" y="421.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                   ::::::::jjjjjj:jjj:::::::::||</text>
+    <text x="58" y="430.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                    ;  ::::::::::::::::::::::iy</text>
+    <text x="58" y="440.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                   _xc.     :: : : ::::::::_jox_.</text>
+    <text x="58" y="450" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 _':jxxj::   : ::: :: ::::|xooxvj/</text>
+    <text x="58" y="459.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             _\gog:jjxxxxx;.:       ::._jxoooooj|@g/-.</text>
+
+    <text x="259" y="490" text-anchor="middle" fill="#c7d8ff" class="mono" font-size="20" letter-spacing="2">ADAM MOUJTAHID</text>
+    <text x="259" y="510" text-anchor="middle" fill="#6f89ab" class="mono" font-size="11">minimal • engineered • midnight blue</text>
+  </g>
+
+  <rect x="512" y="82" width="584" height="442" rx="14" fill="#08111d" stroke="#173154"/>
+  <text x="530" y="106" fill="#7da8ff" class="mono" font-size="11" letter-spacing="1.5">SYSTEM.INFO</text>
+
+  <text x="530" y="144" class="mono titlePulse" font-size="16"><tspan fill="#2a3f5f">─</tspan><tspan fill="#bcd1ff"> profile@summary </tspan><tspan fill="#2a3f5f">────────────────────────────────────────────</tspan></text>
+  <rect x="1018" y="132" width="8" height="16" rx="1" fill="#b7ccff" class="cursor"/>
+
+  <text x="530" y="176" class="mono" font-size="14"><tspan fill="#8fb3ff">. Name        </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Adam Moujtahid</tspan></text>
+  <text x="530" y="206" class="mono" font-size="14"><tspan fill="#8fb3ff">. Role        </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Computer Engineering Student</tspan></text>
+  <text x="530" y="236" class="mono" font-size="14"><tspan fill="#8fb3ff">. Focus       </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> AI · Data Engineering · Big Data</tspan></text>
+  <text x="530" y="266" class="mono" font-size="14"><tspan fill="#8fb3ff">. School      </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> EMSI</tspan></text>
+  <text x="530" y="296" class="mono" font-size="14"><tspan fill="#8fb3ff">. Environment </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Linux / Unix</tspan></text>
+
+  <text x="530" y="342" class="mono titlePulse" font-size="16"><tspan fill="#2a3f5f">─</tspan><tspan fill="#bcd1ff"> tech@stack </tspan><tspan fill="#2a3f5f">─────────────────────────────────────────────────</tspan></text>
+  <text x="530" y="374" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Core:       </tspan><tspan fill="#dfeaff"> C · Python · Java · JavaScript · PHP · SQL</tspan></text>
+  <text x="530" y="401" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Backend:    </tspan><tspan fill="#dfeaff"> Django · Symfony · Spring Boot · Node.js</tspan></text>
+  <text x="530" y="428" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Frontend:   </tspan><tspan fill="#dfeaff"> HTML5 · CSS3 · JavaScript · Angular</tspan></text>
+  <text x="530" y="455" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Databases:  </tspan><tspan fill="#dfeaff"> MySQL · MariaDB · PostgreSQL</tspan></text>
+  <text x="530" y="482" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Systems:    </tspan><tspan fill="#dfeaff"> Linux · Unix · Bash · Git · GitHub</tspan></text>
+
+  <rect x="530" y="503" width="6" height="18" rx="1" fill="url(#accent)" class="shineBar"/>
+  <text x="548" y="517" class="mono glowPulse" font-size="13.5"><tspan fill="#8fb3ff">. Portfolio:  </tspan><tspan fill="#edf4ff"> portfolio-v2-tau-ochre.vercel.app</tspan></text>
+  <text x="1072" y="518" text-anchor="end" fill="#566f96" class="mono" font-size="10">github.com/admoujta</text>
 </svg>
