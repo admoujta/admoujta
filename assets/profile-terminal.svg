@@ -1,137 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="552" viewBox="0 0 1120 552" role="img" aria-label="Adam Moujtahid GitHub profile terminal card">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Adam Moujtahid GitHub profile card">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="45%" stop-color="#0b1730"/>
-      <stop offset="100%" stop-color="#040c18"/>
+      <stop offset="0%" stop-color="#08101c"/>
+      <stop offset="55%" stop-color="#0b1627"/>
+      <stop offset="100%" stop-color="#060d18"/>
     </linearGradient>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#17335f"/>
-      <stop offset="50%" stop-color="#264f86"/>
-      <stop offset="100%" stop-color="#102948"/>
+      <stop offset="0%" stop-color="#1c3558"/>
+      <stop offset="100%" stop-color="#2e4f7d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78a9ff"/>
-      <stop offset="100%" stop-color="#b9d2ff"/>
-    </linearGradient>
-    <linearGradient id="scanFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#9fc3ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#9fc3ff" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#9fc3ff" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="cardClip">
-      <rect x="0.5" y="0.5" width="1119" height="551" rx="16"/>
-    </clipPath>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0f203b" stroke-width="1" opacity="0.45"/>
-    </pattern>
     <style><![CDATA[
       .mono { font-family: Consolas, Menlo, 'DejaVu Sans Mono', monospace; }
-      .titlePulse { animation: titlePulse 3s ease-in-out infinite; }
-      .cursor { animation: blink 1s steps(1,end) infinite; }
-      .scanline { animation: scan 8s linear infinite; }
-      .glowPulse { animation: glowPulse 2.8s ease-in-out infinite; }
-      .floatSoft { animation: floatSoft 4.5s ease-in-out infinite; }
-      .shineBar { animation: blinkSoft 1.6s ease-in-out infinite; }
-      @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
-      @keyframes blinkSoft { 0%,100% { opacity:1; } 50% { opacity:.45; } }
-      @keyframes titlePulse { 0%,100% { opacity:1; } 50% { opacity:.78; } }
-      @keyframes glowPulse { 0%,100% { opacity:1; filter:url(#softGlow); } 50% { opacity:.8; filter:url(#softGlow); } }
-      @keyframes scan { 0% { transform:translateY(-90px); } 100% { transform:translateY(660px); } }
-      @keyframes floatSoft { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
+      .muted { fill: #6f88ab; }
+      .label { fill: #8fb3ff; }
+      .value { fill: #edf4ff; }
+      .line  { fill: #324764; }
+      .accent { fill: #bcd1ff; }
     ]]></style>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1119" height="551" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.5"/>
-  <rect x="12" y="12" width="1096" height="528" rx="12" fill="url(#grid)" opacity="0.35"/>
+  <rect x="1" y="1" width="1198" height="558" rx="18" fill="url(#bg)" stroke="url(#border)" stroke-width="2"/>
 
-  <g clip-path="url(#cardClip)">
-    <rect class="scanline" x="0" y="-90" width="1120" height="90" fill="url(#scanFade)" opacity="0.38"/>
-  </g>
+  <rect x="24" y="22" width="1152" height="42" rx="10" fill="#07111c" stroke="#132744"/>
+  <circle cx="46" cy="43" r="5" fill="#7b8798"/>
+  <circle cx="64" cy="43" r="5" fill="#9aa7b8"/>
+  <circle cx="82" cy="43" r="5" fill="#c7d2df"/>
+  <text x="600" y="47" text-anchor="middle" class="mono muted" font-size="12">admoujta@github: ~/profile — production mode</text>
+  <text x="1098" y="47" text-anchor="end" class="mono accent" font-size="11">LIVE</text>
 
-  <rect x="20" y="18" width="1080" height="44" rx="10" fill="#07111c" stroke="#122743"/>
-  <circle cx="42" cy="40" r="5" fill="#6b7280"/>
-  <circle cx="60" cy="40" r="5" fill="#94a3b8"/>
-  <circle cx="78" cy="40" r="5" fill="#cbd5e1"/>
-  <text x="560" y="45" text-anchor="middle" fill="#6f89ab" class="mono" font-size="12">admoujta@github: ~/profile — production mode</text>
-  <circle cx="1006" cy="40" r="3.8" fill="#a8c7ff" class="glowPulse"/>
-  <text x="1018" y="44" fill="#c6d8ff" class="mono" font-size="11">STATUS: LIVE</text>
+  <rect x="28" y="82" width="468" height="448" rx="16" fill="#08111d" stroke="#173154"/>
+  <rect x="514" y="82" width="658" height="448" rx="16" fill="#08111d" stroke="#173154"/>
 
-  <g class="floatSoft">
-    <rect x="24" y="82" width="470" height="442" rx="14" fill="#08111d" stroke="#173154"/>
-    <text x="40" y="106" fill="#7da8ff" class="mono" font-size="11" letter-spacing="1.5">VISUAL.IDENTITY</text>
+  <text x="46" y="108" class="mono muted" font-size="11" letter-spacing="1.6">VISUAL.IDENTITY</text>
 
-    <g opacity="0.13" stroke="#34598d" stroke-width="1">
-      <line x1="48" y1="126" x2="468" y2="126"/>
-      <line x1="48" y1="420" x2="468" y2="420"/>
-      <line x1="90" y1="136" x2="90" y2="470"/>
-      <line x1="438" y1="136" x2="438" y2="470"/>
-    </g>
+  <text x="60" y="158" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                          _.     _.jjj__</text>
+  <text x="60" y="168.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                      .  ':'-''''    ::!|_.</text>
+  <text x="60" y="178.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                    .                  ::!=_.</text>
+  <text x="60" y="188.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                 .-                      :::!j.</text>
+  <text x="60" y="198.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                .                          :::::</text>
+  <text x="60" y="209" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                               .              : :::::         :j_.</text>
+  <text x="60" y="219.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              .        ::__jjjjjjjjxxxxj;_:    'j|</text>
+  <text x="60" y="229.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                             :      ._jjxxxxxxxxxxxxxxxxxxx;:   |`</text>
+  <text x="60" y="239.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                             :     |jxxxxxxxxxxxxxxoooooxxxx/:  |</text>
+  <text x="60" y="249.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              :   :jxxxooooooooooooooooooooox|: !</text>
+  <text x="60" y="260" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              :  :jxxxooooooooooooooooooooooo|:::</text>
+  <text x="60" y="270.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              :  jjxxxxxxooooooooooxxo1ovnoooo;::</text>
+  <text x="60" y="280.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              ::|jjxv=!!!!|1ooooooxj:: ::::|aoouj</text>
+  <text x="60" y="290.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              ::jjj::::___|jxxooooxxxxxxxjjjjxoxj</text>
+  <text x="60" y="300.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                               jjj;___uujjjjj![}&lt;}|jjj:!!=xxxu1x}`</text>
+  <text x="60" y="311" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                               )|xuxoxx|::;:jj:jx;xxjj:_jcjxoouo;juxc</text>
+  <text x="60" y="321.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                             _.:jjxoxxjj_|jjjjixox;xxxxxxxxxooqooooxx</text>
+  <text x="60" y="331.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                            jxxxxxzxxxxxxxxxx:xxxoxxxxxxxxooosoooxoxr</text>
+  <text x="60" y="341.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                            cxoxxxxjxxxxxvvjjxxoooooujuuuuuggooooxx|</text>
+  <text x="60" y="351.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                            /xxxxxxxxooooooxxx)1xx)1xxooooooooooooo|</text>
+  <text x="60" y="362" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                              /xxxxxooooooooxxjjxxxjxooooooooooooo|</text>
+  <text x="60" y="372.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                               &lt;xjxxxooooooxxj:jjjj:j1xooooooooo&gt;^</text>
+  <text x="60" y="382.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                =jxxxxoooojjjjjxxxxxjjjjxooooooo|</text>
+  <text x="60" y="392.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                 !jxxxxxxjj:!jjjxxxxjjjjjxooooxx|</text>
+  <text x="60" y="402.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                 |jjxxxxjjjjxxxxxxxxxxxjjxxoxxxj|</text>
+  <text x="60" y="413" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                  ::jjxxjjxxxxjj:jjxxoxxjxxxxjjj|</text>
+  <text x="60" y="423.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                  |::jjjj:jxxxjjjjjxxxxjjjjjj::j</text>
+  <text x="60" y="433.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                   ::::::::jjjjjj:jjj:::::::::||</text>
+  <text x="60" y="443.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.6">                                    ;  ::::::::::::::::::::::iy</text>
 
-    <text x="58" y="162" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                          _.     _.jjj__</text>
-    <text x="58" y="171.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                      .  ':'-''''    ::!|_.</text>
-    <text x="58" y="181.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                    .                  ::!=_.</text>
-    <text x="58" y="190.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 .-                      :::!j.</text>
-    <text x="58" y="200.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                .                          :::::</text>
-    <text x="58" y="210" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               .              : :::::         :j_.</text>
-    <text x="58" y="219.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              .        ::__jjjjjjjjxxxxj;_:    'j|</text>
-    <text x="58" y="229.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             :      ._jjxxxxxxxxxxxxxxxxxxx;:   |`</text>
-    <text x="58" y="238.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             :     |jxxxxxxxxxxxxxxoooooxxxx/:  |</text>
-    <text x="58" y="248.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :   :jxxxooooooooooooooooooooox|: !</text>
-    <text x="58" y="258" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :  :jxxxooooooooooooooooooooooo|:::</text>
-    <text x="58" y="267.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              :  jjxxxxxxooooooooooxxo1ovnoooo;::</text>
-    <text x="58" y="277.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              ::|jjxv=!!!!|1ooooooxj:: ::::|aoouj</text>
-    <text x="58" y="286.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              ::jjj::::___|jxxooooxxxxxxxjjjjxoxj</text>
-    <text x="58" y="296.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               jjj;___uujjjjj![}&lt;}|jjj:!!=xxxu1x}`</text>
-    <text x="58" y="306" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               )|xuxoxx|::;:jj:jx;xxjj:_jcjxoouo;juxc</text>
-    <text x="58" y="315.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             _.:jjxoxxjj_|jjjjixox;xxxxxxxxxooqooooxx</text>
-    <text x="58" y="325.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            jxxxxxzxxxxxxxxxx:xxxoxxxxxxxxooosoooxoxr</text>
-    <text x="58" y="334.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            cxoxxxxjxxxxxvvjjxxoooooujuuuuuggooooxx|</text>
-    <text x="58" y="344.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                            /xxxxxxxxooooooxxx)1xx)1xxooooooooooooo|</text>
-    <text x="58" y="354" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                              /xxxxxooooooooxxjjxxxjxooooooooooooo|</text>
-    <text x="58" y="363.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                               &lt;xjxxxooooooxxj:jjjj:j1xooooooooo&gt;^</text>
-    <text x="58" y="373.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                =jxxxxoooojjjjjxxxxxjjjjxooooooo|</text>
-    <text x="58" y="382.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 !jxxxxxxjj:!jjjxxxxjjjjjxooooxx|</text>
-    <text x="58" y="392.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 |jjxxxxjjjjxxxxxxxxxxxjjxxoxxxj|</text>
-    <text x="58" y="402" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                  ::jjxxjjxxxxjj:jjxxoxxjxxxxjjj|</text>
-    <text x="58" y="411.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                  |::jjjj:jxxxjjjjjxxxxjjjjjj::j</text>
-    <text x="58" y="421.2" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                   ::::::::jjjjjj:jjj:::::::::||</text>
-    <text x="58" y="430.8" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                    ;  ::::::::::::::::::::::iy</text>
-    <text x="58" y="440.4" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                   _xc.     :: : : ::::::::_jox_.</text>
-    <text x="58" y="450" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                                 _':jxxj::   : ::: :: ::::|xooxvj/</text>
-    <text x="58" y="459.6" fill="#d8e4ff" class="mono" xml:space="preserve" font-size="8.2">                             _\gog:jjxxxxx;.:       ::._jxoooooj|@g/-.</text>
+  <text x="262" y="489" text-anchor="middle" class="mono value" font-size="20" letter-spacing="2">ADAM MOUJTAHID</text>
+  <text x="262" y="509" text-anchor="middle" class="mono muted" font-size="11">computer engineering • data • ai • linux</text>
 
-    <text x="259" y="490" text-anchor="middle" fill="#c7d8ff" class="mono" font-size="20" letter-spacing="2">ADAM MOUJTAHID</text>
-    <text x="259" y="510" text-anchor="middle" fill="#6f89ab" class="mono" font-size="11">minimal • engineered • midnight blue</text>
-  </g>
+  <text x="534" y="108" class="mono muted" font-size="11" letter-spacing="1.6">SYSTEM.INFO</text>
 
-  <rect x="512" y="82" width="584" height="442" rx="14" fill="#08111d" stroke="#173154"/>
-  <text x="530" y="106" fill="#7da8ff" class="mono" font-size="11" letter-spacing="1.5">SYSTEM.INFO</text>
+  <text x="534" y="146" class="mono" font-size="16"><tspan class="line">─</tspan><tspan class="accent"> profile@summary </tspan><tspan class="line">────────────────────────────────────────────────</tspan></text>
 
-  <text x="530" y="144" class="mono titlePulse" font-size="16"><tspan fill="#2a3f5f">─</tspan><tspan fill="#bcd1ff"> profile@summary </tspan><tspan fill="#2a3f5f">────────────────────────────────────────────</tspan></text>
-  <rect x="1018" y="132" width="8" height="16" rx="1" fill="#b7ccff" class="cursor"/>
+  <text x="534" y="180" class="mono" font-size="14"><tspan class="label">. Name        </tspan><tspan class="line">....................</tspan><tspan class="value"> Adam Moujtahid</tspan></text>
+  <text x="534" y="212" class="mono" font-size="14"><tspan class="label">. Role        </tspan><tspan class="line">....................</tspan><tspan class="value"> Computer Engineering Student</tspan></text>
+  <text x="534" y="244" class="mono" font-size="14"><tspan class="label">. Focus       </tspan><tspan class="line">....................</tspan><tspan class="value"> AI · Data Engineering · Big Data</tspan></text>
+  <text x="534" y="276" class="mono" font-size="14"><tspan class="label">. School      </tspan><tspan class="line">....................</tspan><tspan class="value"> EMSI</tspan></text>
+  <text x="534" y="308" class="mono" font-size="14"><tspan class="label">. Environment </tspan><tspan class="line">....................</tspan><tspan class="value"> Linux / Unix</tspan></text>
 
-  <text x="530" y="176" class="mono" font-size="14"><tspan fill="#8fb3ff">. Name        </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Adam Moujtahid</tspan></text>
-  <text x="530" y="206" class="mono" font-size="14"><tspan fill="#8fb3ff">. Role        </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Computer Engineering Student</tspan></text>
-  <text x="530" y="236" class="mono" font-size="14"><tspan fill="#8fb3ff">. Focus       </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> AI · Data Engineering · Big Data</tspan></text>
-  <text x="530" y="266" class="mono" font-size="14"><tspan fill="#8fb3ff">. School      </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> EMSI</tspan></text>
-  <text x="530" y="296" class="mono" font-size="14"><tspan fill="#8fb3ff">. Environment </tspan><tspan fill="#324764">....................</tspan><tspan fill="#edf4ff"> Linux / Unix</tspan></text>
+  <text x="534" y="356" class="mono" font-size="16"><tspan class="line">─</tspan><tspan class="accent"> tech@stack </tspan><tspan class="line">────────────────────────────────────────────────────</tspan></text>
 
-  <text x="530" y="342" class="mono titlePulse" font-size="16"><tspan fill="#2a3f5f">─</tspan><tspan fill="#bcd1ff"> tech@stack </tspan><tspan fill="#2a3f5f">─────────────────────────────────────────────────</tspan></text>
-  <text x="530" y="374" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Core:       </tspan><tspan fill="#dfeaff"> C · Python · Java · JavaScript · PHP · SQL</tspan></text>
-  <text x="530" y="401" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Backend:    </tspan><tspan fill="#dfeaff"> Django · Symfony · Spring Boot · Node.js</tspan></text>
-  <text x="530" y="428" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Frontend:   </tspan><tspan fill="#dfeaff"> HTML5 · CSS3 · JavaScript · Angular</tspan></text>
-  <text x="530" y="455" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Databases:  </tspan><tspan fill="#dfeaff"> MySQL · MariaDB · PostgreSQL</tspan></text>
-  <text x="530" y="482" class="mono" font-size="13.5"><tspan fill="#8fb3ff">. Systems:    </tspan><tspan fill="#dfeaff"> Linux · Unix · Bash · Git · GitHub</tspan></text>
+  <text x="534" y="390" class="mono" font-size="13.5"><tspan class="label">. Core:       </tspan><tspan class="value"> C · Python · Java · JavaScript · PHP · SQL</tspan></text>
+  <text x="534" y="418" class="mono" font-size="13.5"><tspan class="label">. Backend:    </tspan><tspan class="value"> Django · Symfony · Spring Boot · Node.js</tspan></text>
+  <text x="534" y="446" class="mono" font-size="13.5"><tspan class="label">. Frontend:   </tspan><tspan class="value"> HTML5 · CSS3 · JavaScript · Angular</tspan></text>
+  <text x="534" y="474" class="mono" font-size="13.5"><tspan class="label">. Databases:  </tspan><tspan class="value"> MySQL · MariaDB · PostgreSQL</tspan></text>
+  <text x="534" y="502" class="mono" font-size="13.5"><tspan class="label">. Systems:    </tspan><tspan class="value"> Linux · Unix · Bash · Git · GitHub</tspan></text>
 
-  <rect x="530" y="503" width="6" height="18" rx="1" fill="url(#accent)" class="shineBar"/>
-  <text x="548" y="517" class="mono glowPulse" font-size="13.5"><tspan fill="#8fb3ff">. Portfolio:  </tspan><tspan fill="#edf4ff"> portfolio-v2-tau-ochre.vercel.app</tspan></text>
-  <text x="1072" y="518" text-anchor="end" fill="#566f96" class="mono" font-size="10">github.com/admoujta</text>
+  <text x="534" y="528" class="mono" font-size="13.5"><tspan class="label">. Portfolio:  </tspan><tspan class="value"> portfolio-v2-tau-ochre.vercel.app</tspan></text>
+  <text x="1142" y="528" text-anchor="end" class="mono muted" font-size="10">github.com/admoujta</text>
 </svg>
