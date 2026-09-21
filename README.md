@@ -74,10 +74,45 @@
 </table>
 
 
-## Work
-<div align="center">
-<a href="https://portfolio-v2-tau-ochre.vercel.app"><b>Portfolio</b></a>&nbsp;·&nbsp;<a href="https://github.com/admoujta/1337---Pool"><b>1337 Pool</b></a>&nbsp;·&nbsp;<a href="https://github.com/admoujta/Libft"><b>Libft</b></a>&nbsp;·&nbsp;<a href="https://github.com/admoujta/Portail-Absence"><b>Portail Absence</b></a>&nbsp;·&nbsp;<a href="https://github.com/admoujta/Management-Event"><b>Management Event</b></a>
-</div>
+## Selected Work
+
+<table>
+<tr>
+<td width="27%"><b>Portfolio</b><br/><sub>Next.js · React · TypeScript · Tailwind</sub></td>
+<td>
+<b>Result:</b> Production-ready personal portfolio presenting projects, skills, academic journey, certifications and contact information. Structured content, downloadable CV, lint/type checks and Vercel-ready deployment.<br/>
+<a href="https://portfolio-v2-tau-ochre.vercel.app"><b>Live →</b></a> · <a href="https://github.com/admoujta/adam-moujtahid-portfolio">Source</a>
+</td>
+</tr>
+<tr>
+<td><b>1337 Piscine</b><br/><sub>C · Shell · Unix · Git</sub></td>
+<td>
+<b>Result:</b> Completed an intensive set of Shell and C exercises covering pointers, recursion, memory allocation, strings, Makefiles, function pointers, algorithms, debugging and Unix tooling across Shell00–01 and C00–C11.<br/>
+<a href="https://github.com/admoujta/1337---Pool"><b>Repository →</b></a>
+</td>
+</tr>
+<tr>
+<td><b>Portail Absences & Notes</b><br/><sub>React · Django REST · PostgreSQL · JWT</sub></td>
+<td>
+<b>Result:</b> Designed a multi-role school platform for admins, teachers, students and parents with absence tracking, grades, schedules, notifications, PDF/Excel exports and JWT-secured REST APIs.<br/>
+<a href="https://github.com/admoujta/Portail-Absence"><b>Repository →</b></a>
+</td>
+</tr>
+<tr>
+<td><b>Management Event</b><br/><sub>Django · DRF · SQLite/MySQL</sub></td>
+<td>
+<b>Result:</b> Built an event-management backend with authentication, event and participant management, search/filtering, clean slugs, Django Admin and reusable REST endpoints.<br/>
+<a href="https://github.com/admoujta/Management-Event"><b>Repository →</b></a>
+</td>
+</tr>
+<tr>
+<td><b>Libft</b><br/><sub>C · 42 Project</sub></td>
+<td>
+<b>Focus:</b> C foundations and reimplementation of standard-library-style utilities. Repository initialized for the Libft project and future documented progress.<br/>
+<a href="https://github.com/admoujta/Libft"><b>Repository →</b></a>
+</td>
+</tr>
+</table>
 
 ## Activity
 <div align="center">
