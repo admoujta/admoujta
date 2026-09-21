@@ -73,7 +73,6 @@
 </tr>
 </table>
 
-<div align="right"><a href="./STACK.md"><sub><b>Complete stack →</b></sub></a></div>
 
 ## Work
 <div align="center">
