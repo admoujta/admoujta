@@ -1,17 +1,37 @@
 <div align="center">
 
+<table width="100%">
+<tr>
+<td width="68%" valign="middle">
+
+<sub>ENGINEERING PROFILE · SOFTWARE × DATA × AI</sub>
+
 # Adam Moujtahid
 
-### Software Engineering · Data · Artificial Intelligence
+### Computer Engineering & Networks Student — EMSI
 
-**Computer Engineering & Networks Student — EMSI**  
-Building practical software while strengthening foundations in systems, web engineering, data and AI.
+Building practical software, strengthening low-level foundations, and growing toward **Data Engineering, Big Data and Artificial Intelligence**.
 
 <p>
-  <a href="https://github.com/admoujta"><img src="https://img.shields.io/badge/GitHub-admoujta-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View_Project-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/"><img src="https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
+
+<p>
+  <img src="https://img.shields.io/badge/Software_Engineering-111827?style=flat-square" alt="Software Engineering" />
+  <img src="https://img.shields.io/badge/Data_Engineering-1F6FEB?style=flat-square" alt="Data Engineering" />
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-6E40C9?style=flat-square" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Linux_&_Systems-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux and Systems" />
+</p>
+
+</td>
+<td width="32%" align="center" valign="middle">
+  <img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="210" alt="Adam Moujtahid" />
+  <br/>
+  <sub><b>@admoujta</b></sub>
+</td>
+</tr>
+</table>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=admoujta&style=flat-square&color=0e75b6" alt="Profile views" />
@@ -124,27 +144,35 @@ My personal engineering portfolio presenting projects, technical growth, academi
 
 ## 🛠️ Technical Toolkit
 
-### Languages
+### Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts,php" alt="Programming languages" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts,php" alt="Programming Languages" />
 </p>
 
-### Web Engineering
+A solid programming foundation developed through academic work, practical projects, algorithmic exercises and low-level programming practice.
+
+### Web Development
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,angular,tailwind,bootstrap,nodejs,django,symfony,spring" alt="Web engineering stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,angular,tailwind,bootstrap,nodejs,django,symfony,spring" alt="Web Development Stack" />
 </p>
 
-### Data & Databases
+Technologies I use to design and build modern frontend, backend and full-stack applications with clear structure and maintainable workflows.
+
+### Data, Databases & AI
 <p>
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" alt="Databases" />
 </p>
 
 `SQL` · `Pandas` · `NumPy` · `scikit-learn` · `Apache Spark` · `Hadoop`
 
-### Systems & Tools
+Tools and technologies I am using to strengthen database work, data processing, analytics and AI-oriented development.
+
+### Systems & Development Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and tools" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and Development Tools" />
 </p>
+
+My daily development environment for Linux-based workflows, version control, debugging, collaboration and software delivery.
 
 ---
 
