@@ -145,8 +145,6 @@ A modern portfolio presenting projects, technical growth and my direction toward
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" alt="Databases" />
 </p>
 
-`SQL` · `Pandas` · `NumPy` · `scikit-learn` · `Apache Spark` · `Hadoop`
-
 ### Systems & Tools
 <p>
   <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and Tools" />
