@@ -8,9 +8,9 @@
 
 # Adam Moujtahid
 
-### Computer Engineering & Networks Student — EMSI
+### EMSI Engineering Student · 1337 / 42 Student
 
-Building practical software while growing across **Software Engineering, Data Engineering and Artificial Intelligence**.
+**Computer Engineering & Networks** — building practical software while growing across **Software Engineering, Data Engineering and Artificial Intelligence**.
 
 <p>
   <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -18,10 +18,11 @@ Building practical software while growing across **Software Engineering, Data En
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/EMSI-Engineering_Student-0A66C2?style=flat-square" alt="EMSI Engineering Student" />
+  <img src="https://img.shields.io/badge/1337-42_Student-00BABC?style=flat-square" alt="1337 42 Student" />
   <img src="https://img.shields.io/badge/Software-111827?style=flat-square" alt="Software" />
   <img src="https://img.shields.io/badge/Data-1F6FEB?style=flat-square" alt="Data" />
   <img src="https://img.shields.io/badge/AI-6E40C9?style=flat-square" alt="AI" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
 </td>
@@ -44,13 +45,13 @@ Building practical software while growing across **Software Engineering, Data En
 
 ## 👋 Profile
 
-I am a **Computer Engineering & Networks student at EMSI** building a strong software engineering foundation while moving toward **Data Engineering, Big Data and Artificial Intelligence**.
+I am a **Computer Engineering & Networks student at EMSI** and a **1337 / 42 student**, building a strong software engineering foundation while moving toward **Data Engineering, Big Data and Artificial Intelligence**.
 
 My GitHub reflects that path through **1337 / 42 C projects**, full-stack applications, Java practice, embedded systems and portfolio work.
 
 <div align="center">
 
-`Software Engineering` · `Data` · `AI` · `Systems` · `Problem Solving`
+`EMSI` · `1337 / 42` · `Software Engineering` · `Data` · `AI`
 
 </div>
 
@@ -214,7 +215,7 @@ I am continuing to strengthen the connection between **software engineering**, *
 <br/><br/>
 
 ### Adam Moujtahid
-**Computer Engineering & Networks · Software Engineering · Data · AI**
+**EMSI Engineering Student · 1337 / 42 Student · Software · Data · AI**
 
 <sub>Build · Learn · Improve · Repeat</sub>
 
