@@ -10,23 +10,23 @@
 
 ### Computer Engineering & Networks Student — EMSI
 
-Building practical software, strengthening low-level foundations, and growing toward **Data Engineering, Big Data and Artificial Intelligence**.
+Building practical software while growing across **Software Engineering, Data Engineering and Artificial Intelligence**.
 
 <p>
-  <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View_Project-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/"><img src="https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Software_Engineering-111827?style=flat-square" alt="Software Engineering" />
-  <img src="https://img.shields.io/badge/Data_Engineering-1F6FEB?style=flat-square" alt="Data Engineering" />
-  <img src="https://img.shields.io/badge/Artificial_Intelligence-6E40C9?style=flat-square" alt="Artificial Intelligence" />
-  <img src="https://img.shields.io/badge/Linux_&_Systems-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux and Systems" />
+  <img src="https://img.shields.io/badge/Software-111827?style=flat-square" alt="Software" />
+  <img src="https://img.shields.io/badge/Data-1F6FEB?style=flat-square" alt="Data" />
+  <img src="https://img.shields.io/badge/AI-6E40C9?style=flat-square" alt="AI" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
 </td>
 <td width="32%" align="center" valign="middle">
-  <img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="210" alt="Adam Moujtahid" />
+  <img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="215" alt="Adam Moujtahid" />
   <br/>
   <sub><b>@admoujta</b></sub>
 </td>
@@ -44,30 +44,15 @@ Building practical software, strengthening low-level foundations, and growing to
 
 ## 👋 Profile
 
-<table width="100%">
-<tr>
-<td width="62%" valign="top">
+I am a **Computer Engineering & Networks student at EMSI** building a strong software engineering foundation while moving toward **Data Engineering, Big Data and Artificial Intelligence**.
 
-I am a **Computer Engineering & Networks student at EMSI** focused on becoming a software engineer who can connect strong development foundations with **Data Engineering, Big Data and Artificial Intelligence**.
+My GitHub reflects that path through **1337 / 42 C projects**, full-stack applications, Java practice, embedded systems and portfolio work.
 
-My GitHub documents that progression through real projects: low-level C at **1337 / 42**, full-stack web applications, management systems, embedded programming and a modern portfolio.
+<div align="center">
 
-```text
-Software Engineering
-        +
-Data / Big Data
-        +
-Artificial Intelligence
-        ↓
-Useful, scalable and intelligent systems
-```
+`Software Engineering` · `Data` · `AI` · `Systems` · `Problem Solving`
 
-</td>
-<td width="38%" align="center" valign="middle">
-  <img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="220" alt="Adam Moujtahid" />
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -93,7 +78,7 @@ Useful, scalable and intelligent systems
 ### 🎓 [1337-Pool](https://github.com/admoujta/1337-Pool)
 **C · Shell · Unix · Git**
 
-My 1337 / 42 Piscine journey covering C fundamentals, pointers, memory, recursion, strings, Makefiles, algorithms, debugging and Unix tooling.
+My 1337 / 42 Piscine journey covering C fundamentals, pointers, memory, recursion, strings, Makefiles, algorithms and debugging.
 
 </td>
 <td width="50%" valign="top">
@@ -111,7 +96,7 @@ Reimplementation of core C library-style utilities with emphasis on memory, stri
 ### 📖 [Get-Next-Line](https://github.com/admoujta/Get-Next-Line)
 **C · File descriptors · Static variables**
 
-A 42 project focused on reading a file descriptor line by line while managing buffers, memory and repeated calls correctly.
+Reading a file descriptor line by line while managing buffers, memory and repeated calls correctly.
 
 </td>
 <td width="50%" valign="top">
@@ -119,7 +104,7 @@ A 42 project focused on reading a file descriptor line by line while managing bu
 ### ⚡ [Portfolio](https://github.com/admoujta/adam-moujtahid-portfolio)
 **Next.js · React · TypeScript · Tailwind CSS**
 
-My personal engineering portfolio presenting projects, technical growth, academic journey and the direction toward Software × Data × AI.
+A modern portfolio presenting projects, technical growth and my direction toward Software × Data × AI.
 
 </td>
 </tr>
@@ -131,14 +116,14 @@ My personal engineering portfolio presenting projects, technical growth, academi
 
 | Project | Focus |
 |---|---|
-| 🏥 [Medical-Management-System](https://github.com/admoujta/Medical-Management-System) | Health-oriented management application and practical full-stack development |
-| 🎓 [Portail-Absence](https://github.com/admoujta/Portail-Absence) | School attendance and academic-management workflow |
+| 🏥 [Medical-Management-System](https://github.com/admoujta/Medical-Management-System) | Health management application |
+| 🎓 [Portail-Absence](https://github.com/admoujta/Portail-Absence) | Academic attendance management |
 | 📅 [Management-Event](https://github.com/admoujta/Management-Event) | Event and participant management |
-| 🍽️ [restaurant-management-system](https://github.com/admoujta/restaurant-management-system) | Restaurant operations and management concepts |
-| 🛒 [E-commerce](https://github.com/admoujta/E-commerce) | Product-oriented web application and shopping experience |
-| ✅ [To_Do_list](https://github.com/admoujta/To_Do_list) | Task-management application |
-| 🚗 [car-dealership-management](https://github.com/admoujta/car-dealership-management) | Dealership management practice project |
-| 🔢 [arduino-calculator](https://github.com/admoujta/arduino-calculator) | Embedded calculator using Arduino, keypad and display |
+| 🍽️ [restaurant-management-system](https://github.com/admoujta/restaurant-management-system) | Restaurant operations and management |
+| 🛒 [E-commerce](https://github.com/admoujta/E-commerce) | Product-oriented web application |
+| ✅ [To_Do_list](https://github.com/admoujta/To_Do_list) | Task management application |
+| 🚗 [car-dealership-management](https://github.com/admoujta/car-dealership-management) | Dealership management practice |
+| 🔢 [arduino-calculator](https://github.com/admoujta/arduino-calculator) | Arduino keypad calculator |
 
 ---
 
@@ -149,14 +134,10 @@ My personal engineering portfolio presenting projects, technical growth, academi
   <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts,php" alt="Programming Languages" />
 </p>
 
-A solid programming foundation developed through academic work, practical projects, algorithmic exercises and low-level programming practice.
-
 ### Web Development
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,angular,tailwind,bootstrap,nodejs,django,symfony,spring" alt="Web Development Stack" />
 </p>
-
-Technologies I use to design and build modern frontend, backend and full-stack applications with clear structure and maintainable workflows.
 
 ### Data, Databases & AI
 <p>
@@ -165,14 +146,10 @@ Technologies I use to design and build modern frontend, backend and full-stack a
 
 `SQL` · `Pandas` · `NumPy` · `scikit-learn` · `Apache Spark` · `Hadoop`
 
-Tools and technologies I am using to strengthen database work, data processing, analytics and AI-oriented development.
-
-### Systems & Development Tools
+### Systems & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and Development Tools" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and Tools" />
 </p>
-
-My daily development environment for Linux-based workflows, version control, debugging, collaboration and software delivery.
 
 ---
 
@@ -193,19 +170,13 @@ My daily development environment for Linux-based workflows, version control, deb
 
 ## 🧭 Current Direction
 
-```text
-Strong programming foundations
-        ↓
-Software architecture & full-stack systems
-        ↓
-Data Engineering & Big Data
-        ↓
-Machine Learning / Artificial Intelligence
-        ↓
-Production-ready intelligent applications
-```
+<div align="center">
 
-I am strengthening the bridge between **software engineering**, **data systems** and **AI**, while continuing to improve problem solving through C, Java, Python, Linux and practical projects.
+**Programming Foundations → Software Engineering → Data Engineering → AI**
+
+</div>
+
+I am continuing to strengthen the connection between **software engineering**, **data systems** and **AI** through C, Java, Python, Linux and practical projects.
 
 ---
 
