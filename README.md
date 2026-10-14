@@ -13,7 +13,7 @@
 **Computer Engineering & Networks** — building practical software while growing across **Software Engineering, Data Engineering and Artificial Intelligence**.
 
 <p>
-  <a href="https://portfolio-v2-tau-ochre.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://adam-moujtahid-portfolio.vercel.app/en"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
@@ -205,7 +205,7 @@ I am continuing to strengthen the connection between **software engineering**, *
 <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/">
   <img src="https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://portfolio-v2-tau-ochre.vercel.app">
+<a href="https://adam-moujtahid-portfolio.vercel.app/en">
   <img src="https://img.shields.io/badge/Portfolio-Open-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 
