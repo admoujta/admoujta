@@ -35,7 +35,7 @@
 </table>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=admoujta&style=flat-square&color=0e75b6" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=admoujta&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/admoujta?style=flat-square&logo=github&label=Followers" alt="GitHub followers" />
 </p>
 
