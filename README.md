@@ -10,7 +10,7 @@
 
 ### EMSI Engineering Student · 1337 / 42 Student
 
-**Computer Engineering & Networks** — building practical software while growing across **Software Engineering, Data Engineering and Artificial Intelligence**.
+**Computer Engineering & Networks** — developing software engineering skills through **Java, C, full-stack projects and systems programming**, with a growing focus on **Data Engineering and AI**.
 
 <p>
   <a href="https://adam-moujtahid-portfolio.vercel.app/en"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -46,7 +46,7 @@
 
 I am a **Computer Engineering & Networks student at EMSI** and a **1337 / 42 student**, building a strong software engineering foundation while moving toward **Data Engineering, Big Data and Artificial Intelligence**.
 
-My GitHub reflects that path through **1337 / 42 C projects**, full-stack applications, Java practice, embedded systems and portfolio work.
+My GitHub documents hands-on learning through **1337 / 42 C projects**, **advanced Java practical labs**, full-stack applications, embedded systems and portfolio work.
 
 <div align="center">
 
@@ -112,6 +112,47 @@ A modern portfolio presenting projects, technical growth and my direction toward
 
 ---
 
+## ☕ Featured Learning Project — Java Practice
+
+<table width="100%">
+<tr>
+<td width="67%" valign="top">
+
+### [Java-Practice · Advanced Java & OOP](https://github.com/admoujta/Java-Practice)
+
+A structured collection of **EMSI 4IIR practical labs**, documenting object-oriented design, exception handling, collections, functional programming, the Stream API and multithreading.
+
+**Documented topics:** classes and objects · custom exceptions · `ArrayList` · lambda expressions · `Predicate` / `BiFunction` · Streams · Java threads.
+
+**[📚 Explore the repository](https://github.com/admoujta/Java-Practice) · [🧵 Read the Threads lab](https://github.com/admoujta/Java-Practice/blob/main/TP07/README.md)**
+
+</td>
+<td width="33%" align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/Java-Practice-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Practice" /><br/>
+<img src="https://img.shields.io/badge/EMSI-4IIR-007F86?style=flat-square" alt="EMSI 4IIR" /><br/>
+<img src="https://img.shields.io/badge/Labs-6_Documented-2EA44F?style=flat-square" alt="Six documented practical labs" />
+
+</td>
+</tr>
+</table>
+
+### Practical lab navigator
+
+| Lab | Topic | Documentation |
+|:---:|---|---|
+| **TP01** | Classes, objects and encapsulation | [Read TP01](https://github.com/admoujta/Java-Practice/blob/main/TP01/README.md) |
+| **TP02** | Assignment not provided | Not available |
+| **TP03** | Exceptions and error handling | [Read TP03](https://github.com/admoujta/Java-Practice/blob/main/TP03/README.md) |
+| **TP04** | Collections and inheritance | [Read TP04](https://github.com/admoujta/Java-Practice/blob/main/TP04/README.md) |
+| **TP05** | Lambda expressions and functional interfaces | [Read TP05](https://github.com/admoujta/Java-Practice/blob/main/TP05/README.md) |
+| **TP06** | Java Streams and collection processing | [Read TP06](https://github.com/admoujta/Java-Practice/blob/main/TP06/README.md) |
+| **TP07** | Threads and concurrent execution | [Read TP07](https://github.com/admoujta/Java-Practice/blob/main/TP07/README.md) |
+
+<sub>Documentation and examples are available for six labs. The TP02 assignment is not yet included. Some labs document learning exercises without a verified complete implementation.</sub>
+
+---
+
 ## 🧩 Application Projects
 
 | Project | Focus |
@@ -174,7 +215,7 @@ A modern portfolio presenting projects, technical growth and my direction toward
 
 </div>
 
-I am continuing to strengthen the connection between **software engineering**, **data systems** and **AI** through C, Java, Python, Linux and practical projects.
+I am strengthening the connection between **software engineering**, **data systems** and **AI** through C and Linux systems programming, advanced Java practical labs, Python and full-stack projects.
 
 ---
 
@@ -188,6 +229,7 @@ I am continuing to strengthen the connection between **software engineering**, *
 |---|---|
 | **42 / C / Systems** | [1337-Pool](https://github.com/admoujta/1337-Pool) · [Libft](https://github.com/admoujta/Libft) · [Get-Next-Line](https://github.com/admoujta/Get-Next-Line) |
 | **Web / Full Stack** | [Medical-Management-System](https://github.com/admoujta/Medical-Management-System) · [Portail-Absence](https://github.com/admoujta/Portail-Absence) · [Management-Event](https://github.com/admoujta/Management-Event) · [restaurant-management-system](https://github.com/admoujta/restaurant-management-system) · [E-commerce](https://github.com/admoujta/E-commerce) · [To_Do_list](https://github.com/admoujta/To_Do_list) · [car-dealership-management](https://github.com/admoujta/car-dealership-management) |
+| **Java / OOP / Concurrency** | [Java-Practice](https://github.com/admoujta/Java-Practice) · [TP01](https://github.com/admoujta/Java-Practice/tree/main/TP01) · [TP03](https://github.com/admoujta/Java-Practice/tree/main/TP03) · [TP04](https://github.com/admoujta/Java-Practice/tree/main/TP04) · [TP05](https://github.com/admoujta/Java-Practice/tree/main/TP05) · [TP06](https://github.com/admoujta/Java-Practice/tree/main/TP06) · [TP07](https://github.com/admoujta/Java-Practice/tree/main/TP07) |
 | **Embedded** | [arduino-calculator](https://github.com/admoujta/arduino-calculator) |
 | **Portfolio** | [adam-moujtahid-portfolio](https://github.com/admoujta/adam-moujtahid-portfolio) |
 
