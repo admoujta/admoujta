@@ -1,110 +1,120 @@
 <div align="center">
 
-<table width="100%">
-<tr>
-<td width="68%" valign="middle">
-
-<sub>ENGINEERING PROFILE · SOFTWARE × DATA × AI</sub>
-
 # Adam Moujtahid
+### Software Engineering · Full-Stack Web Development · Data & AI
 
-### EMSI Engineering Student · 1337 / 42 Student
+<p><strong>Computer Engineering & Networks student at EMSI</strong> · 1337 / 42 learner</p>
+<p>I design and build practical web applications, from responsive interfaces to backend services, APIs and databases.</p>
 
-**Computer Engineering & Networks** — developing software engineering skills through **Java, C, full-stack projects and systems programming**, with a growing focus on **Data Engineering and AI**.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://adam-moujtahid-portfolio.vercel.app/en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-moujtahid-0416b019a/)
+[![GitHub](https://img.shields.io/badge/GitHub-admoujta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/admoujta)
 
-<p>
-  <a href="https://adam-moujtahid-portfolio.vercel.app/en"><img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/EMSI-Engineering_Student-0A66C2?style=flat-square" alt="EMSI Engineering Student" />
-  <img src="https://img.shields.io/badge/1337-42_Student-00BABC?style=flat-square" alt="1337 42 Student" />
-  <img src="https://img.shields.io/badge/Software-111827?style=flat-square" alt="Software" />
-  <img src="https://img.shields.io/badge/Data-1F6FEB?style=flat-square" alt="Data" />
-  <img src="https://img.shields.io/badge/AI-6E40C9?style=flat-square" alt="AI" />
-</p>
-
-</td>
-<td width="32%" align="center" valign="middle">
-  <img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="215" alt="Adam Moujtahid" />
-  <br/>
-  <sub><b>@admoujta</b></sub>
-</td>
-</tr>
-</table>
-
-<p>
-  <img src="https://img.shields.io/github/followers/admoujta?style=flat-square&logo=github&label=Followers" alt="GitHub followers" />
-</p>
+![Profile views](https://komarev.com/ghpvc/?username=admoujta&style=flat-square&color=0e7490)
+![Followers](https://img.shields.io/github/followers/admoujta?style=flat-square&label=Followers)
 
 </div>
 
 ---
 
-## 👋 Profile
+## About me
 
-I am a **Computer Engineering & Networks student at EMSI** and a **1337 / 42 student**, building a strong software engineering foundation while moving toward **Data Engineering, Big Data and Artificial Intelligence**.
+- **Primary focus:** Full-stack web development, software architecture, REST APIs and database design.
+- **Currently exploring:** Data engineering, AI and intelligent software systems.
+- **Academic foundation:** Engineering at EMSI and hands-on C/Unix practice through 1337 / 42.
+- **How I work:** Build useful products, document decisions, test improvements and keep learning.
 
-My GitHub documents hands-on learning through **1337 / 42 C projects**, **advanced Java practical labs**, full-stack applications, embedded systems and portfolio work.
+## Featured Projects — Web Applications
 
-<div align="center">
+> A curated selection of **web applications only**. Systems programming, console exercises and embedded projects are listed separately below.
 
-`EMSI` · `1337 / 42` · `Software Engineering` · `Data` · `AI`
-
-</div>
-
----
-
-## 🚀 Engineering Focus
-
-<table width="100%">
-<tr>
-<td width="25%" align="center"><b>Software</b><br/><sub>architecture · APIs · full-stack</sub></td>
-<td width="25%" align="center"><b>Data</b><br/><sub>SQL · processing · analytics</sub></td>
-<td width="25%" align="center"><b>AI</b><br/><sub>ML foundations · intelligent apps</sub></td>
-<td width="25%" align="center"><b>Systems</b><br/><sub>C · Linux · Unix · Git</sub></td>
-</tr>
-</table>
-
----
-
-## ⭐ Featured Work
-
-<table width="100%">
+<table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 [1337-Pool](https://github.com/admoujta/1337-Pool)
-**C · Shell · Unix · Git**
+### 🏥 [Medical Management System](https://github.com/admoujta/Medical-Management-System)
 
-My 1337 / 42 Piscine journey covering C fundamentals, pointers, memory, recursion, strings, Makefiles, algorithms and debugging.
+**React · TypeScript · FastAPI · PostgreSQL**
+
+Multi-tenant healthcare SaaS foundation with clinic onboarding, JWT authentication, multilingual UI and containerized services.
+
+**Stage:** Active development
+
+[View source](https://github.com/admoujta/Medical-Management-System)
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [Libft](https://github.com/admoujta/Libft)
-**C · 42 Project**
+### 🍽️ [Restaurant Management System](https://github.com/admoujta/restaurant-management-system)
 
-Reimplementation of core C library-style utilities with emphasis on memory, strings, clean interfaces and strict compilation rules.
+**Symfony · PHP · Twig · PostgreSQL**
+
+Full-stack restaurant platform with separate customer, waiter and administrator roles, reservation workflows and back-office management.
+
+[View source](https://github.com/admoujta/restaurant-management-system)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📖 [Get-Next-Line](https://github.com/admoujta/Get-Next-Line)
-**C · File descriptors · Static variables**
+### 🎓 [Attendance & Grades Portal](https://github.com/admoujta/Portail-Absence)
 
-Reading a file descriptor line by line while managing buffers, memory and repeated calls correctly.
+**React · Django REST Framework · PostgreSQL**
+
+Academic portal for attendance and grade tracking, role-based access and administrative workflows.
+
+**Stage:** In development
+
+[View source](https://github.com/admoujta/Portail-Absence)
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ [Portfolio](https://github.com/admoujta/adam-moujtahid-portfolio)
+### 🎉 [Event Management](https://github.com/admoujta/Management-Event)
+
+**Python · Django · Django REST Framework**
+
+Web application for organizing events, managing participants and exposing event data through an API.
+
+[View source](https://github.com/admoujta/Management-Event)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 [Gaming E-Commerce Store](https://github.com/admoujta/E-commerce)
+
+**HTML · CSS · JavaScript**
+
+Responsive gaming product storefront with catalogue pages, promotional sections and a persistent browser shopping cart.
+
+[Live website](https://e-commerce-pi-blond.vercel.app) · [Source code](https://github.com/admoujta/E-commerce)
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ [To-Do Web Application](https://github.com/admoujta/To_Do_list)
+
+**Django · React · REST API**
+
+Full-stack task-management project with authentication, task endpoints and a web interface.
+
+[View source](https://github.com/admoujta/To_Do_list)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 💼 [Personal Portfolio](https://github.com/admoujta/adam-moujtahid-portfolio)
+
 **Next.js · React · TypeScript · Tailwind CSS**
 
-A modern portfolio presenting projects, technical growth and my direction toward Software × Data × AI.
+Personal portfolio for presenting web applications, engineering experience and professional development.
+
+[Live portfolio](https://adam-moujtahid-portfolio.vercel.app/en) · [Source code](https://github.com/admoujta/adam-moujtahid-portfolio)
 
 </td>
 </tr>
@@ -112,149 +122,85 @@ A modern portfolio presenting projects, technical growth and my direction toward
 
 ---
 
-## ☕ Featured Learning Project — Java Practice
-
-<table width="100%">
-<tr>
-<td width="67%" valign="top">
-
-### [Java-Practice · Advanced Java & OOP](https://github.com/admoujta/Java-Practice)
-
-A structured collection of **EMSI 4IIR practical labs**, documenting object-oriented design, exception handling, collections, functional programming, the Stream API and multithreading.
-
-**Documented topics:** classes and objects · custom exceptions · `ArrayList` · lambda expressions · `Predicate` / `BiFunction` · Streams · Java threads.
-
-**[📚 Explore the repository](https://github.com/admoujta/Java-Practice) · [🧵 Read the Threads lab](https://github.com/admoujta/Java-Practice/blob/main/TP07/README.md)**
-
-</td>
-<td width="33%" align="center" valign="middle">
-
-<img src="https://img.shields.io/badge/Java-Practice-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Practice" /><br/>
-<img src="https://img.shields.io/badge/EMSI-4IIR-007F86?style=flat-square" alt="EMSI 4IIR" /><br/>
-<img src="https://img.shields.io/badge/Labs-6_Documented-2EA44F?style=flat-square" alt="Six documented practical labs" />
-
-</td>
-</tr>
-</table>
-
-### Practical lab navigator
-
-| Lab | Topic | Documentation |
-|:---:|---|---|
-| **TP01** | Classes, objects and encapsulation | [Read TP01](https://github.com/admoujta/Java-Practice/blob/main/TP01/README.md) |
-| **TP02** | Assignment not provided | Not available |
-| **TP03** | Exceptions and error handling | [Read TP03](https://github.com/admoujta/Java-Practice/blob/main/TP03/README.md) |
-| **TP04** | Collections and inheritance | [Read TP04](https://github.com/admoujta/Java-Practice/blob/main/TP04/README.md) |
-| **TP05** | Lambda expressions and functional interfaces | [Read TP05](https://github.com/admoujta/Java-Practice/blob/main/TP05/README.md) |
-| **TP06** | Java Streams and collection processing | [Read TP06](https://github.com/admoujta/Java-Practice/blob/main/TP06/README.md) |
-| **TP07** | Threads and concurrent execution | [Read TP07](https://github.com/admoujta/Java-Practice/blob/main/TP07/README.md) |
-
-<sub>Documentation and examples are available for six labs. The TP02 assignment is not yet included. Some labs document learning exercises without a verified complete implementation.</sub>
-
----
-
-## 🧩 Application Projects
-
-| Project | Focus |
-|---|---|
-| 🏥 [Medical-Management-System](https://github.com/admoujta/Medical-Management-System) | Health management application |
-| 🎓 [Portail-Absence](https://github.com/admoujta/Portail-Absence) | Academic attendance management |
-| 📅 [Management-Event](https://github.com/admoujta/Management-Event) | Event and participant management |
-| 🍽️ [restaurant-management-system](https://github.com/admoujta/restaurant-management-system) | Restaurant operations and management |
-| 🛒 [E-commerce](https://github.com/admoujta/E-commerce) | Product-oriented web application |
-| ✅ [To_Do_list](https://github.com/admoujta/To_Do_list) | Task management application |
-| 🚗 [car-dealership-management](https://github.com/admoujta/car-dealership-management) | Dealership management practice |
-| 🔢 [arduino-calculator](https://github.com/admoujta/arduino-calculator) | Arduino keypad calculator |
-
----
-
-## 🛠️ Technical Toolkit
-
-### Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,ts,php" alt="Programming Languages" />
-</p>
-
-### Web Development
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,angular,tailwind,bootstrap,nodejs,django,symfony,spring" alt="Web Development Stack" />
-</p>
-
-### Data, Databases & AI
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" alt="Databases" />
-</p>
-
-### Systems & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,docker" alt="Systems and Tools" />
-</p>
-
----
-
-## 📊 GitHub Activity
+## Tech Stack
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=admoujta&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Adam Moujtahid GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=admoujta&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages" />
+**Languages**
 
-<br/>
+![Languages](https://skillicons.dev/icons?i=ts,js,python,php,java,c,cpp)
 
-<img width="99%" src="https://raw.githubusercontent.com/admoujta/admoujta/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
+**Frontend**
+
+![Frontend](https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,bootstrap)
+
+**Backend & Data**
+
+![Backend](https://skillicons.dev/icons?i=django,fastapi,symfony,nodejs,postgres,mysql,mongodb)
+
+**Engineering Tools**
+
+![Tools](https://skillicons.dev/icons?i=git,github,docker,linux,bash,vscode)
 
 </div>
 
 ---
 
-## 🧭 Current Direction
+## GitHub Stats & Language Distribution
 
 <div align="center">
 
-**Programming Foundations → Software Engineering → Data Engineering → AI**
+![GitHub activity](https://github-readme-stats.vercel.app/api?username=admoujta&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true)
+
+![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=admoujta&layout=compact&langs_count=8&hide_border=true&theme=github_dark&size_weight=0.5&count_weight=0.5)
 
 </div>
 
-I am strengthening the connection between **software engineering**, **data systems** and **AI** through C and Linux systems programming, advanced Java practical labs, Python and full-stack projects.
+> **About the percentages:** The language chart is generated from GitHub repository language statistics; the proportions reflect **code distribution**, not personal proficiency or skill ratings. The chart updates through its external provider. GitHub/private repository visibility and provider availability can affect what is displayed.
 
 ---
 
-## 📚 Repository Map
+## Other Engineering Work
+
+These repositories are valuable parts of my training, but are **not web applications**, so they are intentionally kept outside Featured Projects.
+
+| Area | Repositories | What I practised |
+|---|---|---|
+| **C / Unix / 42** | [1337-Pool](https://github.com/admoujta/1337-Pool) · [Libft](https://github.com/admoujta/Libft) · [Get Next Line](https://github.com/admoujta/Get-Next-Line) | Pointers, memory management, file I/O, algorithms and Unix tools |
+| **Java** | [Java Practice](https://github.com/admoujta/Java-Practice) | OOP, collections, exceptions, lambdas, Streams and multithreading |
+| **C / CLI** | [Car Dealership Management](https://github.com/admoujta/car-dealership-management) | Linked lists, file persistence and modular console programming |
+| **Embedded** | [Arduino Calculator](https://github.com/admoujta/arduino-calculator) | Embedded programming and hardware interaction |
 
 <details>
-<summary><b>Open the public-project map</b></summary>
-<br/>
+<summary><strong>Java practical labs — TP01 to TP07</strong></summary>
 
-| Area | Repositories |
-|---|---|
-| **42 / C / Systems** | [1337-Pool](https://github.com/admoujta/1337-Pool) · [Libft](https://github.com/admoujta/Libft) · [Get-Next-Line](https://github.com/admoujta/Get-Next-Line) |
-| **Web / Full Stack** | [Medical-Management-System](https://github.com/admoujta/Medical-Management-System) · [Portail-Absence](https://github.com/admoujta/Portail-Absence) · [Management-Event](https://github.com/admoujta/Management-Event) · [restaurant-management-system](https://github.com/admoujta/restaurant-management-system) · [E-commerce](https://github.com/admoujta/E-commerce) · [To_Do_list](https://github.com/admoujta/To_Do_list) · [car-dealership-management](https://github.com/admoujta/car-dealership-management) |
-| **Java / OOP / Concurrency** | [Java-Practice](https://github.com/admoujta/Java-Practice) · [TP01](https://github.com/admoujta/Java-Practice/tree/main/TP01) · [TP03](https://github.com/admoujta/Java-Practice/tree/main/TP03) · [TP04](https://github.com/admoujta/Java-Practice/tree/main/TP04) · [TP05](https://github.com/admoujta/Java-Practice/tree/main/TP05) · [TP06](https://github.com/admoujta/Java-Practice/tree/main/TP06) · [TP07](https://github.com/admoujta/Java-Practice/tree/main/TP07) |
-| **Embedded** | [arduino-calculator](https://github.com/admoujta/arduino-calculator) |
-| **Portfolio** | [adam-moujtahid-portfolio](https://github.com/admoujta/adam-moujtahid-portfolio) |
+<br>
+
+| Lab | Topic | Documentation |
+|---|---|---|
+| TP01 | Classes, objects and encapsulation | [TP01](https://github.com/admoujta/Java-Practice/tree/main/TP01) |
+| TP02 | Not currently documented | — |
+| TP03 | Exceptions | [TP03](https://github.com/admoujta/Java-Practice/tree/main/TP03) |
+| TP04 | Collections and inheritance | [TP04](https://github.com/admoujta/Java-Practice/tree/main/TP04) |
+| TP05 | Lambdas and functional interfaces | [TP05](https://github.com/admoujta/Java-Practice/tree/main/TP05) |
+| TP06 | Streams | [TP06](https://github.com/admoujta/Java-Practice/tree/main/TP06) |
+| TP07 | Java threads | [TP07](https://github.com/admoujta/Java-Practice/tree/main/TP07) |
 
 </details>
 
 ---
 
-## 🤝 Connect
+## What I'm Working Toward
+
+`Full-Stack Engineering` → `Software Architecture` → `Data Engineering` → `AI-Powered Applications`
+
+My goal is to build reliable, useful products by combining **software engineering foundations**, **modern web technologies**, and **data-driven thinking**.
 
 <div align="center">
 
-<a href="https://github.com/admoujta">
-  <img src="https://img.shields.io/badge/GitHub-admoujta-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.linkedin.com/in/adam-moujtahid-0416b019a/">
-  <img src="https://img.shields.io/badge/LinkedIn-Adam_Moujtahid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://adam-moujtahid-portfolio.vercel.app/en">
-  <img src="https://img.shields.io/badge/Portfolio-Open-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-</a>
+### Let's connect
 
-<br/><br/>
-
-### Adam Moujtahid
-**EMSI Engineering Student · 1337 / 42 Student · Software · Data · AI**
+[Portfolio](https://adam-moujtahid-portfolio.vercel.app/en) · [LinkedIn](https://www.linkedin.com/in/adam-moujtahid-0416b019a/) · [GitHub](https://github.com/admoujta)
 
 <sub>Build · Learn · Improve · Repeat</sub>
 
