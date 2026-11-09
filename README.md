@@ -146,17 +146,22 @@ Personal portfolio for presenting web applications, engineering experience and p
 
 ---
 
-## GitHub Stats & Language Distribution
+## Languages & GitHub Insights
 
-<div align="center">
+I work across frontend, backend and systems programming. These are the languages used in my **public repositories**, grouped by where I use them:
 
-![GitHub activity](https://github-readme-stats.vercel.app/api?username=admoujta&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true)
+| Language | Main use | Public example |
+|:--|:--|:--|
+| **TypeScript** | Modern React/Next.js interfaces | [Portfolio](https://github.com/admoujta/adam-moujtahid-portfolio) |
+| **JavaScript** | Interactive storefronts and web UI | [E-Commerce](https://github.com/admoujta/E-commerce) |
+| **Python** | Django and FastAPI backends | [Event Management](https://github.com/admoujta/Management-Event) |
+| **PHP** | Symfony backend applications | [Restaurant Management](https://github.com/admoujta/restaurant-management-system) |
+| **HTML / CSS** | Responsive web interfaces | [E-Commerce](https://github.com/admoujta/E-commerce) |
+| **C** | Systems programming | [Libft](https://github.com/admoujta/Libft) |
 
-![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=admoujta&layout=compact&langs_count=8&hide_border=true&theme=github_dark&size_weight=0.5&count_weight=0.5)
+**Language percentages:** GitHub calculates code-language percentages for each repository using its own language breakdown. Open a project above and see the **Languages** section on the repository page for verified percentages. I intentionally do not display guessed percentages or broken third-party statistics cards.
 
-</div>
-
-> **About the percentages:** The language chart is generated from GitHub repository language statistics; the proportions reflect **code distribution**, not personal proficiency or skill ratings. The chart updates through its external provider. GitHub/private repository visibility and provider availability can affect what is displayed.
+**[Explore my public repositories and activity](https://github.com/admoujta?tab=repositories)** · **[See my contribution history](https://github.com/admoujta?tab=overview)**
 
 ---
 
@@ -167,26 +172,8 @@ These repositories are valuable parts of my training, but are **not web applicat
 | Area | Repositories | What I practised |
 |---|---|---|
 | **C / Unix / 42** | [1337-Pool](https://github.com/admoujta/1337-Pool) · [Libft](https://github.com/admoujta/Libft) · [Get Next Line](https://github.com/admoujta/Get-Next-Line) | Pointers, memory management, file I/O, algorithms and Unix tools |
-| **Java** | [Java Practice](https://github.com/admoujta/Java-Practice) | OOP, collections, exceptions, lambdas, Streams and multithreading |
 | **C / CLI** | [Car Dealership Management](https://github.com/admoujta/car-dealership-management) | Linked lists, file persistence and modular console programming |
 | **Embedded** | [Arduino Calculator](https://github.com/admoujta/arduino-calculator) | Embedded programming and hardware interaction |
-
-<details>
-<summary><strong>Java practical labs — TP01 to TP07</strong></summary>
-
-<br>
-
-| Lab | Topic | Documentation |
-|---|---|---|
-| TP01 | Classes, objects and encapsulation | [TP01](https://github.com/admoujta/Java-Practice/tree/main/TP01) |
-| TP02 | Not currently documented | — |
-| TP03 | Exceptions | [TP03](https://github.com/admoujta/Java-Practice/tree/main/TP03) |
-| TP04 | Collections and inheritance | [TP04](https://github.com/admoujta/Java-Practice/tree/main/TP04) |
-| TP05 | Lambdas and functional interfaces | [TP05](https://github.com/admoujta/Java-Practice/tree/main/TP05) |
-| TP06 | Streams | [TP06](https://github.com/admoujta/Java-Practice/tree/main/TP06) |
-| TP07 | Java threads | [TP07](https://github.com/admoujta/Java-Practice/tree/main/TP07) |
-
-</details>
 
 ---
 
@@ -198,10 +185,14 @@ My goal is to build reliable, useful products by combining **software engineerin
 
 <div align="center">
 
-### Let's connect
+## Connect & Collaborate
 
-[Portfolio](https://adam-moujtahid-portfolio.vercel.app/en) · [LinkedIn](https://www.linkedin.com/in/adam-moujtahid-0416b019a/) · [GitHub](https://github.com/admoujta)
+**Interested in building web applications, APIs or data-driven products?**
 
-<sub>Build · Learn · Improve · Repeat</sub>
+[![Explore Portfolio](https://img.shields.io/badge/Explore-Portfolio-0F766E?style=for-the-badge)](https://adam-moujtahid-portfolio.vercel.app/en)
+[![Professional Network](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/adam-moujtahid-0416b019a/)
+[![View Code](https://img.shields.io/badge/Explore-GitHub-334155?style=for-the-badge)](https://github.com/admoujta?tab=repositories)
+
+**Build useful things. Keep improving.**
 
 </div>
